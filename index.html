@@ -1,9 +1,12 @@
-
 <html>
     <head>
         <title>My Virtual Classroom </title>
 
         <link rel="stylesheet" type="text/css" href="mainstyle.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!--bootstrap css link-->
+
 
     </head>
 
@@ -14,10 +17,10 @@
 
         <nav class="navstyle">
             <ul>
-                <li><a class="active" href="">Home </a></li>
-                <li><a href="">About </a></li>
-				<li><a href="">Course </a></li>
-                <li><a href="">Requirements </a></li>
+                <li><a class="active" href="#">Home </a></li>
+                <li><a href="#">Virtual Class </a></li>
+				<li><a href="#">About</a></li>
+                <li><a href="#">Contact </a></li>
 
             </ul>
 
@@ -25,23 +28,56 @@
         </nav>
 
         <div class="whitespace">
-
-        </div>
-        <div class="jumbotron">
-
-
-        <!-- div content here -->
-
-
-
-
+            <a href="#">Home</a> > <a href="#">Virtual Class</a>
 
         </div>
 
-        <footer>
-        <!-- footer here -->
+        <!-- code for the slideshow -->
+       <div class="w3-content w3-section">
+  <img class="mySlides" src="img1.jpg" style="width:100%">
+  <img class="mySlides" src="img2.jpg" style="width:100%">
+  <img class="mySlides" src="img3.jpg" style="width:100%">
+</div>
 
-        </footer>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+        <!-- end of the slideshow code-->
+
+
+
+<div class="learn-more">
+	      <div class="column-left">
+			<h3>About ULC</h3>
+			<p>This site is a online community for CSU-SM students and staff who love and respect the right to free speech.</p>
+			<p><a href="#">Learn more</a></p>
+	      </div>
+		  <div class="column-center">
+			<h3>Partnership with The Louisian Files</h3>
+			<p>This website is the fully functional and independent social site platform of The Louisian Files facebook community where you can create an account that has a lot of exciting functions.</p>
+			<p><a href="#">Learn more</a></p>
+		  </div>
+		  <div class="column-right">
+		  <h3>Terms of Use and Privacy Policy</h3>
+			<p>When you submit a post or rant you agree to the terms and policies of this site otherwise please don't participate on the forum.</p>
+			<p><a href="#">Learn more</a></p>
+
+		  </div>
+	    </div>
 
 
 

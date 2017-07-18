@@ -40,25 +40,52 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
-nav {
 
-}
-
-/* whitespace style code */
+/* whitespace sitemap style code */
 .whitespace {
     background-color: #c2c2a3;
     height: 28px;
     margin-bottom: -1px;
 }
 
-.jumbotron {
-    background-color: white;
-    height: 50%;
-    margin-bottom: -1px;
-}
+
 
 /* footer style code */
+/*
 footer {
     background-color: #00334d;
     height: 20%;
+
+}*/
+
+.img .w3-content w3-display-container {
+
 }
+
+.mySlides {
+    max-width: 100%;
+}
+
+.learn-more {
+ background-color: #00334d;
+
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+    color: white;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.learn-more p {
+    color: white;
+}
+
+.column-left{ float: left; width: 33%; }
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; }
