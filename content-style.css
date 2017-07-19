@@ -1,8 +1,37 @@
 /* virtual class style */
 
-.classroom-content {
-    padding-top: 10%;
-    padding-bottom: 10%;
 
+.classroom-content {
+
+    padding-top: 5px;
+    padding-bottom: 50%;
 }
 
+.content-left {
+    width: 80%;
+    float: left;
+    background-color: darkgray;
+}
+
+.content-right {
+    width: 20%;
+    float: left;
+    background-color: black;
+}
+
+.cr-header {
+    border-style: dashed;
+    height: 50px;
+}
+
+.chapter1 {
+    border-style: dashed;
+
+    padding-bottom: 50px;
+}
+
+.chapter2 {
+    border-style: dashed;
+
+    padding-bottom: 50px;
+}
