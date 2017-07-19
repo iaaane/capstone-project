@@ -4,7 +4,7 @@
 
         <link rel="stylesheet" type="text/css" href="mainstyle.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+ <link rel="stylesheet" type="text/css" href="content-style.css">
 <!--bootstrap css link-->
 
 
@@ -32,31 +32,14 @@
 
         </div>
 
-        <!-- code for the slideshow -->
-       <div class="w3-content w3-section">
-  <img class="mySlides" src="img1.jpg" style="width:100%">
-  <img class="mySlides" src="img2.jpg" style="width:100%">
-  <img class="mySlides" src="img3.jpg" style="width:100%">
-</div>
 
-<script>
-var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-</script>
 
-        <!-- end of the slideshow code-->
+        <!-- content -->
+
+        <div class="classroom-content">
+
+        </div>
 
 
 

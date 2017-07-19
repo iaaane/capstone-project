@@ -1,11 +1,18 @@
 /* topheader style */
 .header1 {
     background-color: #00334d;
-    padding-left: 100px;
+    padding-left: 60px;
+    padding-bottom: 8px;
     padding-top: 1px;
-    padding-bottom: 100px;
     margin-bottom: -1px;
 
+}
+
+.header1 img {
+    position: relative;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* Remove margins and padding from the list, and add a black background color */
@@ -46,6 +53,7 @@ li a:hover:not(.active) {
     background-color: #c2c2a3;
     height: 28px;
     margin-bottom: -1px;
+    padding-left: 45px;
 }
 
 
@@ -89,3 +97,18 @@ footer {
 .column-left{ float: left; width: 33%; }
 .column-right{ float: right; width: 33%; }
 .column-center{ display: inline-block; width: 33%; }
+
+.column-left {
+    padding-left: 10%;
+    padding-right: 3%
+}
+
+.column-right {
+    padding-left: 3%;
+    padding-right: 7%
+}
+
+.column-center {
+    padding-left: 3%;
+    padding-right: 3%
+}
