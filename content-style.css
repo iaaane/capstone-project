@@ -2,36 +2,39 @@
 
 
 .classroom-content {
-
-    padding-top: 5px;
-    padding-bottom: 50%;
+    width: 90%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 2%;
 }
 
 .content-left {
-    width: 80%;
-    float: left;
-    background-color: darkgray;
+
+    background-color: #d7d7c1;
 }
 
+/*
 .content-right {
     width: 20%;
     float: left;
     background-color: black;
-}
+} */
 
 .cr-header {
     border-style: dashed;
-    height: 50px;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 
 .chapter1 {
     border-style: dashed;
 
-    padding-bottom: 50px;
+    padding-bottom: 3%;
 }
 
 .chapter2 {
     border-style: dashed;
 
-    padding-bottom: 50px;
+    padding-bottom: 3%;
 }
