@@ -11,6 +11,7 @@
 .content-left {
 
     background-color: #d7d7c1;
+
 }
 
 /*
@@ -31,10 +32,20 @@
     border-style: dashed;
 
     padding-bottom: 3%;
+    padding-left: 3%;
 }
 
 .chapter2 {
     border-style: dashed;
-
+    padding-left: 3%;
     padding-bottom: 3%;
+}
+
+
+.materials {
+    padding-left: 25%;
+}
+
+.activity {
+    padding-left: 25%;
 }
