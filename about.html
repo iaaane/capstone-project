@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="mainstyle.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+        <link rel="stylesheet" type="text/css" href="about-style.css">
 <!--bootstrap css link-->
 
 
@@ -12,14 +13,14 @@
 
     <body>
         <div class="header1">
-            <a href="#"><img src="logo.png" alt="logo" /></a>
+            <a href="index.html"><img src="logo.png" alt="logo" /></a>
         </div>
 
         <nav class="navstyle">
             <ul>
-                <li><a class="active" href="index.html">Home </a></li>
+                <li><a  href="index.html">Home </a></li>
                 <li><a href="virtualclass.html">Virtual Class </a></li>
-				<li><a href="about.html">About</a></li>
+				<li><a class="active" href="about.html">About</a></li>
                 <li><a href="contact.html">Contact </a></li>
 
             </ul>
@@ -28,35 +29,16 @@
         </nav>
 
         <div class="whitespace">
-            <a href="#">Home</a> >
+            <a href="index.html">Home</a> > <a href="about.html">About</a>
 
         </div>
 
-        <!-- code for the slideshow -->
-       <div class="w3-content w3-section">
-  <img class="mySlides" src="img1.jpg" style="width:100%">
-  <img class="mySlides" src="img2.jpg" style="width:100%">
-  <img class="mySlides" src="img3.jpg" style="width:100%">
-</div>
+        <!--code for content-->
+        <div class="about-content">
 
-<script>
-var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-</script>
+        </div>
 
-        <!-- end of the slideshow code-->
 
 
 
